@@ -5,9 +5,7 @@ It allows users to define a datacenter infrastructure in a high-level configurat
 from which it can create an execution plan to build the infrastructure in a service provider such as AWS.
 
 
----------------------
-Terraform AWS Modules
----------------------
+### Terraform AWS Modules:
 
 The purpose of Terraform AWS Modules are to create a fully operational AWS VPC infrastructure(subnets,routeing tables,igw etc), it will also create everything that need to be for creating EC2 and RDS instances (security key, security group, subnet group).
 
