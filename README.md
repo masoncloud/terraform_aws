@@ -9,7 +9,7 @@ from which it can create an execution plan to build the infrastructure in a serv
 
 The purpose of Terraform AWS Modules are to create a fully operational AWS VPC infrastructure(subnets,routeing tables,igw etc), it will also create everything that need to be for creating EC2 and RDS instances (security key, security group, subnet group).
 
-It will also create the Elastic Load Balancer and add the EC2 instance(s) automatically that were created using this playbook as well as creating the Route53 entry for this site and add the ELB alias to it. 
+It will also create the Elastic Load Balancer and add the EC2 instance(s) automatically that were created using this playbook as well as creating the Route53 entry for this site and add the ELB alias to it.
 
 
 ### Terraform AWS Modules Tasks:
